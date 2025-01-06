@@ -5,7 +5,7 @@
  * int f(int[ ] a)
  */
 
-public class Even_Odd_Subtraction {
+class Even_Odd_Subtraction {
     public static void main(String[] args) {
         int[] a = { 1, 2, 3, 4, 5 };
         System.out.println(f(a));
