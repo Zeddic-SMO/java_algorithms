@@ -36,4 +36,11 @@ class Point_Of_Equilibrium {
         return leftSum == rightSum ? assumedPOEIdx : -1;
 
     }
+
+    public static void main(String[] args) {
+        int[] array = { 1, 2, 3, 4, 6 };
+        int result = f(array);
+
+        System.out.println("Point of Equilibrium: " + result); 
+    }
 }
