@@ -5,11 +5,7 @@
  */
 
 class Integer_Reverse {
-    public static void main(String[] args) {
-        System.out.println(f(12345));
-    }
-
-    static int f(int n) {
+    public static int f(int n) {
         if (n == 0)
             return n;
 
@@ -29,4 +25,7 @@ class Integer_Reverse {
 
     }
 
+    public static void main(String[] args) {
+        System.out.println(f(12345));
+    }
 }

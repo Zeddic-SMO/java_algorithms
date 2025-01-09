@@ -7,14 +7,8 @@
  */
 
 class Character_Array {
-    public static void main(String[] args) {
-        char[] a = { 'a', 'b', 'c' };
-        int start = 2;
-        int len = 1;
-        System.out.println(f(a, start, len));
-    }
 
-    static char[] f(char[] a, int start, int len) {
+    public static char[] f(char[] a, int start, int len) {
         if (start < 0 || start > a.length || len < 0 || len > a.length || len > a.length - start)
             return null;
 
@@ -24,5 +18,12 @@ class Character_Array {
         }
 
         return result;
+    }
+
+    public static void main(String[] args) {
+        char[] a = { 'a', 'b', 'c' };
+        int start = 2;
+        int len = 1;
+        System.out.println(f(a, start, len));
     }
 }

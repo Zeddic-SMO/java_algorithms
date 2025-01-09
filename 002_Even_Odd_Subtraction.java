@@ -6,12 +6,8 @@
  */
 
 class Even_Odd_Subtraction {
-    public static void main(String[] args) {
-        int[] a = { 1, 2, 3, 4, 5 };
-        System.out.println(f(a));
-    }
 
-    static int f(int[] a) {
+    public static int f(int[] a) {
         int sumOdd = 0;
         int sumEven = 0;
         for (int i = 0; i < a.length; i++) {
@@ -23,6 +19,11 @@ class Even_Odd_Subtraction {
         }
 
         return sumOdd - sumEven;
+    }
+
+    public static void main(String[] args) {
+        int[] a = { 1, 2, 3, 4, 5 };
+        System.out.println(f(a));
     }
 
 }

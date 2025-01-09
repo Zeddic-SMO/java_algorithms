@@ -7,12 +7,8 @@
  */
 
 class Centered_Array {
-    public static void main(String[] args) {
-        int result = centeredArrChck(new int[] { 1, 2, 3, 4, 5 });
-        System.out.println(result);
-    }
 
-    static int centeredArrChck(int[] arr) {
+    public static int centeredArrChck(int[] arr) {
         if (arr == null || arr.length == 0 || arr.length % 2 == 0) {
             return 0;
         }
@@ -27,5 +23,10 @@ class Centered_Array {
         }
         return 1;
 
+    }
+
+    public static void main(String[] args) {
+        int result = centeredArrChck(new int[] { 1, 2, 3, 4, 5 });
+        System.out.println(result);
     }
 }
