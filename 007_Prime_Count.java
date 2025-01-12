@@ -32,9 +32,13 @@ class Prime_Count {
     }
 
     public static void main(String[] args) {
-        int start = 1;
-        int end = 1;
-        System.out.println(primeCount(start, end));
+        System.out.println(primeCount(10, 30));
+        System.out.println(primeCount(11, 29));
+        System.out.println(primeCount(20, 22));
+        System.out.println(primeCount(1, 1));
+        System.out.println(primeCount(5, 5));
+        System.out.println(primeCount(6, 2));
+        System.out.println(primeCount(-10, 6));
 
     }
 }
