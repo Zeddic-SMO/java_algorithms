@@ -76,3 +76,24 @@ try {
 
 > Note:All catch blocks should be ordered from most specific to most general.
 > Following the specific exceptions, you can use the Exception type to handle all other exceptions as the last catch.
+
+## Types of Exceptions
+
+There are two exception types, checked and unchecked (also called runtime). The main difference is that checked exceptions are checked when compiled, while unchecked exceptions are checked at runtime.
+As mentioned in our previous lesson, Thread.sleep() throws an InterruptedException. This is an example of a checked exception. Your code will not compile until you've handled the exception.
+
+```java
+public class MyClass {
+  public static void main(String[ ] args) {
+    try {
+      Thread.sleep(1000);
+    } catch (InterruptedException e) {
+      //some code
+    }
+  }
+}
+```
+
+We have seen examples of unchecked exceptions, which are checked at runtime, in previous lessons.
+
+> Note: if not handled, checked exceptions will prevent your code from compiling.
