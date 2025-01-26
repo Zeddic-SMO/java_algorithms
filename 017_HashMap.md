@@ -32,3 +32,16 @@ The HashMap class provides **containsKey** and **containsValue** methods that de
 If you try to get a value that is not present in your map, it returns the value of **null**.
 
 > null is a special type that represents the absence of a value.
+
+## Method Description
+
+put(key, value) - Inserts or updates the key-value pair in the map.
+get(key) - Retrieves the value associated with the given key. Returns null if the key is not found.
+remove(key) - Removes the key-value pair for the given key.
+containsKey(key) - Returns true if the map contains the given key.
+containsValue(value) - Returns true if the map contains the given value.
+keySet() - Returns a Set view of all the keys in the map.
+values() - Returns a Collection view of all the values in the map.
+size() - Returns the number of key-value pairs in the map.
+isEmpty() - Returns true if the map is empty.
+clear() - Removes all the key-value pairs from the map.
