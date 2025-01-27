@@ -29,4 +29,14 @@ class largets_of_N_numbers {
         return maxNum;
     }
 
+    public static int largestOfNOption(int size, Scanner scanner) {
+        int maxNum = Integer.MIN_VALUE; // Initialize maxNum to the smallest possible integer
+        for (int i = 0; i < size; i++) {
+            int num = scanner.nextInt();
+            maxNum = Math.max(maxNum, num); // Using Math.max() function to return the highest value between maxNum and
+                                            // num
+        }
+        return maxNum;
+    }
+
 }
