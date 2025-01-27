@@ -19,5 +19,6 @@ class Sum_Of_Postive_Numbers {
 
         } while (num >= 0);
         System.out.println("Sum = " + sum);
+        sc.close();
     }
 }
