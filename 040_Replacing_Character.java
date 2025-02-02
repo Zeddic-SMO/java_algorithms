@@ -1,3 +1,17 @@
+// Write a program to return a string from a given string s where all occurrences of 
+// the first char of the string except the first occurrence have been changed to '$'.
+// Sample Input:
+
+// "restart"
+// Sample Output:
+
+// "resta$t"
+// Sample Explanation:
+
+// ‘r’ is the first character of the string. We have to replace all the occurrences of r to ‘$’
+//  except the one at index 0.
+
+
 import java.util.*;
 
 class Replacing_Character {
